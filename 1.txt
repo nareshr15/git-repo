@@ -1,0 +1,6 @@
+step 1 git clone "repository url https"
+step 2 git add remote origin url
+step 3 create new files, modify files
+step 4 add to staging area
+step 5 commit the data
+step 6 push -u origin master
