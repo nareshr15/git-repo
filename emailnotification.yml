@@ -1,0 +1,12 @@
+---
+- name: install doc2unix eeeeeee
+  hosts: satishubuntu
+  vars:
+    http_port: 80
+  remote_user: root
+
+  tasks:
+  - name: doc2unix installation task
+    apt:
+      name: doc2unix
+      state: latest
