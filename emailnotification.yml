@@ -1,6 +1,6 @@
 ---
 - name: install doc2unix eeeeeee
-  hosts: agen123
+  hosts: localhost
   vars:
     http_port: 80
   remote_user: root
